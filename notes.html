@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>My HTML notes for Intro to Programming</title>
+      <style>
+          li {color: purple; }
+      </style>
+    </head>
+    <body>    
+        <div>
+            <h1>Hypertext Markup Language</h1>
+        <br>
+        (Hypertext) Text that can include links or references. <br>
+        (Markup) Tells the browser what text should look like.
+        Markup translates commands to format properly for browsers.
+        </div>
+        <em>(Elements)</em> text with tags at the start and end.
+        <br>
+        <p>
+            (tags) always begin and end with angle brackets <> the end tag has a slash before the command ie /em for empasis. <br>
+        Tags are sometimes refered to as elements incorrectly by programmers.
+        <p>
+            (brelement or void tag) drops the following line down.
+        <p>
+            (paragraph tag) groups all text inside the element together and adds a line of whitespace bewteen it and next element.
+        <p style="text-align: center;">
+            This is a test of <mark>mark tag</mark>, <sub>sub tag</sub>, and <sup>sup tag</sup>. 
+        <p>
+            (Nested elements) Elements within each other that can have to finish before the element it is in. i.e. <em>this <sup>2</sup> can be used for science notes.</em> 
+        <p>
+            HTML Elements Review 1This page is a summary of the HTML elements you've used so far in this course. If you haven't tried them out yet in your own text editor and browser, this is agreat time to do it!
+        <ul>
+            <li style="color:seagreen">em​ ​and strong​ — Emphasis. By default, text inside ​em​ is displayed as ​<em>italic</em>​, and text in strong​ is displayed <strong>as bold face​</strong>.
+            <li>p​ — Paragraph. Text in a paragraph is separated visually from other paragraphs by a small margin.
+            <li>br — Line break. ​(empty)A line break does not create a new paragraph; it only marks the end of a line.
+            <li>sub and ​sup​ — Superscript and subscript. Useful for math and chemistry: I have x<sup>​3​</sup>+2x<sup>​2</sup>​ molecules of H​<sub>2​</sub>O.
+            <li>mark — Highlighting. Not very often used, but it's ​kind of <mark>cool</mark>​. 
+        </ul>
+        <br>
+        Of these elements, the ​br​​element is the only one that is an empty (or void) element.
+        <p>
+            Block elements have a border, height, and length to make sure they are not crossed by any other elements. In-line elements do not have any border
+        <div>
+        <p>
+            The division element can seperate multiple paragraph elements from the rest of the elements.
+        <p>
+            Like so.
+        </div>
+        <p>
+            Lists can be numbered, with the help of ordered list (ol), or have bullet points, with unordered list (ul).
+        <p>
+            Paragraph and list tags do not need closing tags because the browser knows to close the element when it sees another opening tag.
+
+        <p>
+            Food I like:
+            <ol>
+                <li>Chicken Parm
+                <li>Tacos
+                <li>Pizza with
+                    <ul>
+                        <li>Black Olives
+                        <li>Bacon
+                    </ul>
+            </ol>
+        <p>
+            URL
+            <ol>
+                <li>Uniform
+                <li>Resource
+                <li>Locator
+            </ol>
+        Fully qualfied or abssolute URL starts with http, https, or file. Depending on whether you're accessing something locally, on the web, and if it's secure or not.
+        <p>
+            A link must be made with an A element, or Anchor. Because this anchors the link to the page. An A element must include an Attribute to function properly.
+        <p>
+            An Attribute should start with a name (i.e. href) followed by a value. For example, <a href="https://www.youtube.com/">YouTube</a>. Href is hypertext refrence. 
+        <p>
+            Image element, or img, has to have 2 Attributes. First is src (source), which is the url of the image, and alt (alternate), which is a text description of the image. Img is an empty element because it has no textual data and has no close tag.
+            <br> For example: <br>
+            <img src="https://www.daysoftheyear.com/cdn-cgi/image/fit=cover,f=auto,onerror=redirect,width=867,height=488/wp-content/uploads/puppy-day-e1574071869348.jpg"
+                alt="puppy">
+        <p>You can also have an image be the link to click. Example: <br>
+            <a href="https://www.twitch.tv/phantomnuva"><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/aeba27d3-103f-4a3a-9d85-845ebb1c460d-profile_image-70x70.png" alt="phantomnuva"></a>
+        <p><strong><em>Don't forget to follow and sub!</em></strong>
+        <p>A relative URL has no :// and therefore the browser looks for the requested file in the same directory. Like so: <br>
+        <img src="Anneliese.jpg" alt="Anneliese">
+        <P>
+            A DOCTYPE tag tells the browser that this file is modern html. Without the tag, the browser will go into quirks mode and try to format certain things for older html. 
+            A DOCTYPE tag must be at the start of every html file to prevent the browser bugging out.
+        <p>A good way to test html code is by using <a href="https://validator.w3.org/">Validator.com</a>.
+    </body>
+</html>
